@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="15dp" />
+            <stroke
+                android:width="3dp"
+                android:color="#cfd9df" />
+        </shape>
+    </item>
+    <item>
+        <selector>
+            <item
+                android:drawable="@color/purple_700"
+                android:state_focused="true" />
+            <item
+                android:drawable="@drawable/bg_input_word"
+                android:state_pressed="true" />
+        </selector>
+
+    </item>
+
+
+</layer-list>
+
+
+
+

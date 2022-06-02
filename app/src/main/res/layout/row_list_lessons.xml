@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12sp"
+        app:cardElevation="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="12sp">
+
+                <ImageView
+                    android:id="@+id/iv_list_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#CCCCCC" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tv_list_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/latobold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Lesson Name"
+                    android:textAlignment="center"
+                    android:textColor="#383940"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/purple_200" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/latoregular"
+                    android:text="@string/revised_num_of_flashcards"
+                    android:textAlignment="center"
+                    android:textColor="#383940"
+                    android:textSize="11sp" />
+
+                <ProgressBar
+                    android:id="@+id/list_progress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleY="1.5"
+                    app:trackColor="#FFFFFF"
+                    app:trackCornerRadius="20dp"
+                    app:trackThickness="20dp" />
+
+
+                <TextView
+                    android:id="@+id/tv_list_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/latobold"
+                    android:gravity="center_horizontal"
+                    android:padding="2dp"
+                    android:text="0/34"
+                    android:textAlignment="center"
+                    android:textColor="#383940"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/iv_list_options"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackground"
+                    android:backgroundTintMode="add"
+                    android:src="@drawable/ic_more_horiz" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

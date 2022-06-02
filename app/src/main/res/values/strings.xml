@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">FlashcardsApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    //------For more then one activity------//
+    <string name="invalid_input">Invalid input</string>
+    <string name="input_name_lesson">Input name lesson</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit">Edit</string>
+    <string name="too_big_format">Image Too Big Format</string>
+    <string name="Click_two_times_to_leave">Click two times to leave</string>
+    <string name="revised_num_of_flashcards">revised/num of flashcards</string>
+    <string name="Refresh_Warning">Refresh Warning</string>
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Delete_Warning">Delete Warning</string>
+    <string name="Delete">Delete</string>
+    <string name="word">word</string>
+    <string name="translated_word">translated word</string>
+
+    //------activity_add_new_word------//
+    <string name="Add_row">Add_row</string>
+    <string name="Submit_words">Submit words</string>
+    //------AddNewWordsActivity------//
+    <string name="Words_added">Words added</string>
+    //------activity_congratu------//
+    <string name="Click_anywhere_to_back">Click anywhere to back</string>
+    //------CongratuActivity------//
+    <string name="one">Congratulations for a great result!</string>
+    <string name="two">You should be proud of yourself!</string>
+    <string name="three">You are amazing!</string>
+    <string name="four">Wow! That was impressive! Keep up the good work!</string>
+    <string name="five">That was absolutely amazing!</string>
+    <string name="six">Outstanding performance!</string>
+    <string name="seven">You have made excellent progress!</string>
+    <string name="eight">You have outdone yourself!</string>
+    <string name="nine">You deserve a pat on the back!</string>
+    //------activity_create_lesson------//
+    <string name="lesson_name">lesson name</string>
+    <string name="Save">Save</string>
+    //------CreateLessonActivity------//
+    <string name="you_have_lesson_with_this_name">You have lesson with this name</string>
+    //------GameActivity------//
+    <string name="Click_an_empty_space">Click an empty space</string>
+    //------activity_main------//
+    <string name="Create_your_own_flashcards">Create your own flashcards</string>
+    <string name="and_learn_wherever_you_want">and learn wherever you want</string>
+    <string name="Start_learning_now">Start learning now!</string>
+    <string name="create_lesson">Create Lesson</string>
+    <string name="Last_created_lesson">Last created lesson:</string>
+    //------MainActivity------//
+    <string name="stats_coming_soon">stats coming soon</string>
+    <string name="option_coming_soon">option coming soon</string>
+    <string name="warning_coming_soon">warning coming soon</string>
+    //------activity_play------//
+    <string name="Select_how_many_flashcards_you_want_to_revise">
+        Select how many flashcards you want to revise:</string>
+    <string name="Min">Min</string>
+    <string name="add">add</string>
+    <string name="Start">Start</string>
+    //------PlayActivty------//
+    <string name="Number_of_flashcards_in_the_lesson">Number of flashcards in the lesson:</string>
+    <string name="Wrong_number_of_flashcards">Wrong number of flashcards</string>
+    //-------buttom_sheet_dialog-------//
+    <string name="Options">Options</string>
+    <string name="Add_new_words">Add new words</string>
+    <string name="Check_words">Check words</string>
+    <string name="Edit_lesson">Edit lesson</string>
+    <string name="Refresh_lesson">Refresh lesson</string>
+    <string name="Delete_lesson">Delete lesson</string>
+    //-------view_edit_word_lesson-------//
+    <string name="All_words_of_the_lesson">All words of the lesson:</string>
+    //-------ViewEditWordLesson-------//
+    <string name="No_data">No data:</string>
+    //-------AdapterRowEditWord------//
+    <string name="Change_was_made">Change was made:</string>
+
+
+
+</resources>

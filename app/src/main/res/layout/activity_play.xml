@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlayActivity">
+
+
+    <TextView
+        android:id="@+id/tv_play_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_grey"
+        android:fontFamily="@font/latobold"
+        android:paddingTop="10dp"
+        android:text="Lessons Name"
+        android:textAlignment="center"
+        android:textColor="#383940"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_play_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/latoregular"
+        android:maxLength="41"
+        android:text="Number of flashcards in the lesson: 40"
+        android:textColor="#383940"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ma_cl" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/latoregular"
+            android:text="@string/Select_how_many_flashcards_you_want_to_revise"
+            android:textAlignment="center"
+            android:textColor="#383940"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_play_min"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:drawableTop="@drawable/ic_remove"
+                android:fontFamily="@font/latoregular"
+                android:text="@string/Min"
+                android:textColor="#383940" />
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/et_play_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:ems="2"
+                android:fontFamily="@font/latobold"
+                android:text="0"
+                android:maxEms="3"
+                android:maxLength="3"
+                android:textAlignment="center"
+                android:textColor="#383940"
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/btn_play_add"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:drawableTop="@drawable/ic_add"
+                android:fontFamily="@font/latoregular"
+                android:text="@string/add"
+                android:textColor="#383940" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/latoregular"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:text="@string/revised_num_of_flashcards"
+            android:textAlignment="center"
+            android:textColor="#383940"
+            android:textSize="15sp" />
+
+        <ProgressBar
+            android:id="@+id/pb_play"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleY="2"
+            app:trackColor="#FFFFFF"
+            app:trackCornerRadius="20dp"
+            app:trackThickness="20dp" />
+
+        <TextView
+            android:id="@+id/tv_play_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/latobold"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:text="0/34"
+            android:textAlignment="center"
+            android:textColor="#383940"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_play_start"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/latoregular"
+            android:text="@string/Start"
+            android:textColor="#383940" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
